@@ -1,6 +1,4 @@
-// Owners - Vedant and Leland
-// Edited by Leland and Vedant
-//
+
 
 #ifndef INC_22SU_SEARCH_ENGINE_DSAVLTREE_H
 #define INC_22SU_SEARCH_ENGINE_DSAVLTREE_H

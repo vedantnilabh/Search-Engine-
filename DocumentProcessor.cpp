@@ -1,6 +1,4 @@
-// Owner - Vedant Nilabh
-// Edited by Leland and Vedant
-//
+
 #include "DocumentProcessor.h"
 
 void DocumentProcessor::generateStopWords(const char * stopFile, std::unordered_set<string> & sWords) {

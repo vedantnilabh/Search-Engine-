@@ -150,7 +150,7 @@ void DocumentProcessor::indexFiles(const char *path, const std::unordered_set<st
 }
 
 void DocumentProcessor::CalcIDF(DSAVLTree<string, unordered_map<int, double>> & wordIndex, unordered_map<string, int>& words, const int& numFiles) {
-    // iterates over frequenchy map with words and total frequencies and looks at the unordered map associated with that word,
+    // iterates over frequency map with words and total frequencies and looks at the unordered map associated with that word,
     // and computes the idf of each of the files to that specific word and multiples by tf to get tf-idf
     for(auto& word: words){
         for (auto &file: wordIndex[word.first]) {

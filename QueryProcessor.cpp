@@ -1,6 +1,4 @@
-// Owner - Leland Winston
-// Edited by Leland and Vedant
-//
+
 
 #include "QueryProcessor.h"
 
